@@ -29,7 +29,8 @@ class _MyWidgetState extends State<Galary> {
           children: [
             Container(
               decoration: BoxDecoration(
-                  image: DecorationImage(image: AssetImage(images[imageIndex])),
+                  image: DecorationImage(
+                      image: AssetImage(images[imageIndex]), fit: BoxFit.fill),
                   shape: BoxShape.circle,
                   boxShadow: [BoxShadow(spreadRadius: 6, blurRadius: 18)]),
               height: MediaQuery.of(context).size.height / 2,
