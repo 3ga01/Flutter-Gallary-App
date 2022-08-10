@@ -20,6 +20,7 @@ class _MyWidgetState extends State<Galary> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.purple,
       appBar: AppBar(
         title: Text("My Galary"),
       ),
